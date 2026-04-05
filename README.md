@@ -8,7 +8,7 @@ Trains a neural network on the CIFAR-100 image dataset multiple times, each time
   - 50,000 training images 
   - 10,000 test images 
   - Each image is 32×32 pixels with 3 colors: red, green, and blue 
-  - Images belong to 20 broad categories (animals, vehicles, furniture, etc.)
+  - Images belong to 20 broad categories (airplane, automobile, animals, ships)
 
 ## File Structure 
 Assignment_2/
