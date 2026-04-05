@@ -12,6 +12,7 @@ Trains a neural network on the CIFAR-100 image dataset multiple times, each time
 
 ## File Structure 
 Assignment_2/
+
 ├── grid_search.py          
 ├── train                   
 ├── test                   
@@ -21,7 +22,7 @@ Assignment_2/
 ## Steps to run 
 1. Import the `train` and `test` files into the same folder directory as `grid_search.ipynb` or `grid_search.py`
 2. Run `python grid_search.py` or cell if running the Jupyter Notebook
-3. Note: On Apple Macbook M1 this will take hours to run
+3. Note: On Apple MacBook M1, this will take hours to run
 4. Results will be saved to `grid_search_output/results.csv`
 
 ## Outputs 
@@ -49,7 +50,7 @@ This table explains key configuration settings used in a neural network model.
 - Total Combinations: 64 (2×2×2×2×2×2)
 
 ### Accuracy Expectations
-- MLPs are not best suited for images. As noted in the instructions that anything about 20% is considered passing for this assignment
+- MLPs are not best suited for images. As noted in the instructions, anything about 20% is considered passing for this assignment
 
 ----
 # Setup Instructions
@@ -110,7 +111,7 @@ for combo in combinations:
 ```
 
 # 5. Write to CSV
-Save the results after each run in order to prevent data loss:
+Save the results after each run to prevent data loss:
 
 ```python
 with open('grid_search_output/results.csv', 'w', newline='') as f:
@@ -120,7 +121,7 @@ with open('grid_search_output/results.csv', 'w', newline='') as f:
 ```
 
 # 6. Display Results
-Save and show the results from best to worst ranked by validation accuracy:
+Save and show the results from best to worst, ranked by validation accuracy:
 
 ```python
 for epoch in range(200):
