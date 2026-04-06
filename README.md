@@ -11,13 +11,14 @@ Trains a neural network on the CIFAR-100 image dataset multiple times, each time
   - Images belong to 20 broad categories (airplane, automobile, animals, ships)
 
 ## File Structure 
-Assignment_2/
-
-├── grid_search.py          
-├── train                   
-├── test                   
-└── grid_search_output/   
-    └── results.csv  
+```
+Assignment2/
+├── grid_search.py
+├── train/
+├── test/
+└── grid_search_output/
+    └── results.txt
+```
 
 ## Steps to run 
 1. Import the `train` and `test` files into the same folder directory as `grid_search.ipynb` or `grid_search.py`
